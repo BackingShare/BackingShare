@@ -8,4 +8,12 @@ app.config(function($routeProvider){
         templateUrl:'app/routes/login/login.html',
         index: 2
     })
+    .when('/usuario',{
+        templateUrl:'app/routes/usuario/usuario.html',
+        index: 2
+    })
+    .when('/projetos',{
+        templateUrl:'app/routes/projetos/projetos.html',
+        index: 2
+    })
 })

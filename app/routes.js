@@ -1,6 +1,10 @@
 app.config(function($routeProvider){
     $routeProvider
     .when('/', {
+        templateUrl:'app/routes/home/home.html',
+        index: 1
+    })
+    .when('/cadastro', {
         templateUrl:'app/routes/cadastro/cadastro.html',
         index: 1
     })

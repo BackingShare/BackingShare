@@ -1,9 +1,10 @@
 .imagem{
-    background-image: url('../../../assets/img/piano_recorte.jpg');
-  
-   
+    background-image: url('../../../assets/img/piano_recorte.jpg'); 
 }
 
+.fundo{
+    background-image: url('../../../assets/img/guitar.jpg');
+}
 
 .jumbotron{
     padding: 8rem 2rem;

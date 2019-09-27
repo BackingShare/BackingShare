@@ -1,13 +1,13 @@
 <header ng-controller="headerCtrl">
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal">Backing Share</h5>
+        <h5 class="my-0 mr-md-auto font-weight-bold">Backing Share</h5>
         <nav class="my-2 my-md-0 mr-md-3">
              <a class="p-2 text-dark" href="#!/">Home</a>
-             <a class="p-2 text-dark" href="#!/login">Login</a>
-             <a class="p-2 text-dark" href="#!/usuario">Usuario</a>
-             <a class="p-2 text-dark" href="#!/projetos">Projetos</a>
+             <a class="p-2 text-dark" href="#!/cadastro">Sign Up</a>
+             <a class="p-2 text-dark" href="#!/login">Log in</a>
+             <a class="p-2 text-dark" href="#!/usuario">User</a>
+             <a class="p-2 text-dark" href="#!/projetos">Projects</a>
         </nav>
-        <a class="btn btn-outline-primary" href="#">Sign up</a>
     </div>
  </header>
  <main ng-view ng-controller="pageCtrl"></main>
@@ -17,33 +17,25 @@
         <div class="row">
           
           <div class="col-6 col-md">
-            <h5>Features</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Cool stuff</a></li>
-              <li><a class="text-muted" href="#">Random feature</a></li>
-              <li><a class="text-muted" href="#">Team feature</a></li>
-              <li><a class="text-muted" href="#">Stuff for developers</a></li>
-              <li><a class="text-muted" href="#">Another one</a></li>
-              <li><a class="text-muted" href="#">Last time</a></li>
+              <li><a class="text-muted" href="#">Home</a></li>
+              <li><a class="text-muted" href="#">About</a></li>
+              <li><a class="text-muted" href="#">Features</a></li>
+              <li><a class="text-muted" href="#">Contact us</a></li>
             </ul>
           </div>
-          <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Resource</a></li>
-              <li><a class="text-muted" href="#">Resource name</a></li>
-              <li><a class="text-muted" href="#">Another resource</a></li>
-              <li><a class="text-muted" href="#">Final resource</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
+          <div class="col-6 col-md text-large">
+            <ul class="list-unstyled">
+              <li><a class="text-muted" href="#">Projects</a></li>
+              <li><a class="text-muted" href="#">User page</a></li>
+              <li><a class="text-muted" href="#">Community</a></li>
               <li><a class="text-muted" href="#">Privacy</a></li>
-              <li><a class="text-muted" href="#">Terms</a></li>
             </ul>
+          </div>
+          <div class="col-6 col-md">
+            <img class="social-net" src="assets\img\instagram-logo.png"/>
+            <img class="social-net" src="assets\img\facebook-logo.png"/>
+            <img class="social-net" src="assets\img\twitter-logo.png"/>
           </div>
         </div>
       </footer>

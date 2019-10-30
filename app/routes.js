@@ -24,4 +24,8 @@ app.config(function($routeProvider){
         templateUrl:'app/routes/categorias/category.html',
         index: 6
     })
+    .when('/recuperar-senha',{
+        templateUrl:'app/routes/recuperar-senha/recuperar-senha.html',
+        index: 6
+    })
 })

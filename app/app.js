@@ -1,4 +1,10 @@
-app.controller('headerCtrl', function($scope, $rootScope, $route){
+app.controller('headerCtrl', function($scope, $rootScope, $route, userService){
+   
+   
+    $scope.User = userService.getUser();
+    
+
+
     $scope.$rootScope=$rootScope;
     $rootScope.index = $route.current.$$route.index;
     $scope.$on('$routeChangeStart', function(current){
